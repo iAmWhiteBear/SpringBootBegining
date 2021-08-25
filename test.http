@@ -1,0 +1,12 @@
+GET http://localhost:8081/next-path/value
+
+###
+
+POST http://localhost:8081/next-path/value
+Content-Type: application/json
+
+{
+"id": 1,
+"name": "test recieve",
+"price": 45
+}
